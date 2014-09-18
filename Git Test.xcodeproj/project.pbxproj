@@ -21,6 +21,7 @@
 		15CA405919C7CF0F0032A0C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15CA403B19C7CF0F0032A0C1 /* UIKit.framework */; };
 		15CA406119C7CF0F0032A0C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15CA405F19C7CF0F0032A0C1 /* InfoPlist.strings */; };
 		15CA406319C7CF0F0032A0C1 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15CA406219C7CF0F0032A0C1 /* Git_TestTests.m */; };
+		15CA406E19CA727B0032A0C1 /* JHTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 15CA406D19CA727B0032A0C1 /* JHTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		15CA405E19C7CF0F0032A0C1 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		15CA406019C7CF0F0032A0C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		15CA406219C7CF0F0032A0C1 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		15CA406C19CA727B0032A0C1 /* JHTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTest.h; sourceTree = "<group>"; };
+		15CA406D19CA727B0032A0C1 /* JHTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		15CA402B19C7CF0F0032A0C1 = {
 			isa = PBXGroup;
 			children = (
+				15CA406C19CA727B0032A0C1 /* JHTest.h */,
+				15CA406D19CA727B0032A0C1 /* JHTest.m */,
 				15CA403D19C7CF0F0032A0C1 /* Git Test */,
 				15CA405C19C7CF0F0032A0C1 /* Git TestTests */,
 				15CA403619C7CF0F0032A0C1 /* Frameworks */,
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15CA404819C7CF0F0032A0C1 /* JHAppDelegate.m in Sources */,
+				15CA406E19CA727B0032A0C1 /* JHTest.m in Sources */,
 				15CA404E19C7CF0F0032A0C1 /* JHViewController.m in Sources */,
 				15CA404419C7CF0F0032A0C1 /* main.m in Sources */,
 			);
